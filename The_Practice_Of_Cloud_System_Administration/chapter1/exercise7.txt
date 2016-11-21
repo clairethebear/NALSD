@@ -1,0 +1,7 @@
+Q: What does it mean when a system is loosely coupled? What is the advantage of these systems?
+
+A: A loosely coupled system means that the subsystems in a distributed system work independently of each other. 
+
+This is advantageous because if one sub system stops working the other sub systems continue to work without the one that went down. 
+
+It is also easy to add more sub systems when this architecture is in place or to replace a whole sub system.
