@@ -1,0 +1,6 @@
+Q: What are the three patterns discussed for storing state?
+
+A: 
+1. When the entre state can be stored on one machine
+2. When the state is too large and needs to be split across multiple machines
+3. when a master is used to retieve the state from the machines - similar to GFS (Google File System)
