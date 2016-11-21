@@ -1,0 +1,21 @@
+Q: Describe the three major composition patterns in distributed computing.
+
+A: There are 3 composition patterns in distributed computing. 
+
+We have the
+-  load balancer with multiple backends,
+-  server with multiple backends and 
+-  a server tree.
+
+Load balancer with multiple backend replicas: 
+
+The load balanacer redirects requests to different backends each time. 
+There are many different load balancing techniques to handle the load on back end servers. For example round robin, round robin with ratio relevance, least loaded and slow start.
+
+Server with multiple backends: 
+
+For this you can have a server and multiple backends that server a different purpose, like adwords, spell check service, web search and images. 
+And they could have replicas as well to improve redundancy and failures. Think about fan out techniques when talking about this answer.
+
+Server tree: 
+This scheme multiple servers work cooperatively as one with the root server, the parent server and the leaf servers at the bottom of the tree
