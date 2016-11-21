@@ -1,0 +1,4 @@
+Q: What is distributed computing?
+
+A: In the broadest sense distributed computing just means that something is shared among multiple
+systems and may also be in different locations.
