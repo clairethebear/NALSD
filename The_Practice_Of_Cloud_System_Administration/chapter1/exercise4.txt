@@ -1,0 +1,9 @@
+Q: Sometimes a master server does not reply with an answer but instead replies with where the answer can be found. What are the benefits of this method?
+
+A: If the information is very large, it can overload the master server. 
+
+So instead the master will return the location of where the information can be found and the client will go and get it itself. 
+
+The advantage to this is that the master does not become over congested while trying to retrieve data from the leaves. 
+
+Reduces network traffic and reduces the possibility of the master going down.
