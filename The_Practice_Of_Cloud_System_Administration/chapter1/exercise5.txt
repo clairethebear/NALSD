@@ -1,0 +1,4 @@
+Q: Section 1.4 describes a distributed file system, including an example of how reading terabytes of data would work. How would writing terabytes of data work?
+
+A: If the client has authenticated with master then if the write is significantly large the master will only return the location of where the files 
+that the client wants to write to are and the client will write directly to the leaves.
