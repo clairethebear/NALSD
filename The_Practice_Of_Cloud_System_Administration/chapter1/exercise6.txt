@@ -1,0 +1,4 @@
+Q: Explain the CAP principle.
+
+A: The CAP principle is Consistency, Availability and Partition Tolerance. The principle states that a distributed system can only have two of the three.
+
