@@ -1,0 +1,7 @@
+Q: Why might you not want to solve an issue by coding the solution yourself?
+
+A: 
+We might not know the codebase and workflow well.
+Coding standards; devops may not have insight into the coding standards and worklow.
+You dont want to give off the impression that if something doesn't get done then you'll just do it yourself, 
+otherwise it will never get done again.
