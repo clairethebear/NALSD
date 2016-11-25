@@ -1,0 +1,11 @@
+Q:  Why is design for operations so important?
+
+A: It is important because we need to be able to rely on the components of a system in order for our service
+to run efficiently and never have down time.
+
+In order to do this, the dev ops team needs to make important decisions about how to monitor the system, 
+how to account for failures and how to create a system that is fault tolerant to make it more resilient as time goes on.
+
+It is essential that the devops team is involved from the beginning to ensure that the operational features
+are part of the plan. Otherwise this can become both messy and costly to revert to a more suitable
+architecture for the service once it starts to grow.
