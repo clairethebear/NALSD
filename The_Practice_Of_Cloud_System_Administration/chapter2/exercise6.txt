@@ -1,0 +1,9 @@
+Q: Which type of problems should appear first on your priority list?
+
+A: 
+You need to be able to balance the high impact and low effort bugs/feature requests.
+Think of the graph: 
+high impact & low effort,
+high impact & high effort,
+low impact & low effort,
+low impact & high effort.
