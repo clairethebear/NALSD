@@ -1,0 +1,5 @@
+Q: Which factors can you bring to an outside vendor to get the vendor to take your issue seriously?
+
+A: 
+Approach the vendor with caution and ensure that you are constructive with your feedback.
+Create a post mortem for each feature request so that the vendor has context into the problem and the possible solution.
