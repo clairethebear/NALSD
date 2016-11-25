@@ -1,0 +1,13 @@
+Q: How is automated configuration typically supported?
+
+A: In some systems the configuration is dynamically updated as the system runs. 
+
+This “state” may be reflected back into the primary configuration file or may be a separate entity. 
+It is better to save the state as a text file so that you can make comparisons over time.
+
+An inferior option would be a configuration file that is an opaque binary blob. 
+This would not be human readable and difficult to dissect should anything go wrong in the future.
+
+This step may be carried out through an API or by reading and updating a configuration file. 
+If a file is used, a locking protocol must exist to prevent both the service and external automation from 
+reading the file in an incomplete state and to prevent update collisions.
