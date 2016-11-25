@@ -1,0 +1,8 @@
+Q: List the important factors for redundancy through replication.
+
+A: 
+Reliability - if one replica goes down we can still serve requests through the others.
+Testing - Ability for developers to test with bug-for-bug or slow integration testing.
+Scalability - when your service gets more traffic.
+Speed - amount of time it takes to search for data, amount of time it takes for the network to retirve intofmration.
+Flexibility for devops - for reboots and hotswaps; its easier to accommodate system planned downtime when other replicas can take extra load.
