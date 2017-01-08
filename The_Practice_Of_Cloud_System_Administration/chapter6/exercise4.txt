@@ -1,0 +1,6 @@
+A. If a load balancer is being used, the system is automatically scalable and resilient. Do you agree or disagree with this statement? Justify your answer.
+
+Disagree.
+Because the load balancer by itself is not enough to gaurantee resiliency due to the fact that machines operate on different capacities. And if you have a couple of machines running at 80% capacity and if you dont have enough spare machines N + 1 even though the load balancer is being used. It wont prevent service outage in case of a failure.
+A load balancer is important to provide resiliencing when used in combination with enough rescources to take the addition load if one machine or more machines go down.
+Also, even though you are using a load balacer your service is not necessarily scaling - this would happen if you are actually using your machines at a higher capacity. So you are scaling your service across multiple machines and load balancing the traffic amoung them. If you are using your machines at a lower capacity it would not configure this layout as scaling but it would be for resiliency instead.
