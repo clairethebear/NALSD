@@ -1,0 +1,4 @@
+Q. Which resiliency techniques or technologies are in use in your environment?
+
+The load balancer on the home server uses resiliency - we have two machines that are available for distributing traffic. But we are barely using even 5% of the load. Therefore if one machine goes down the other machine will be able to handle the entire service.
+We have database resiliency - the database is replicated across two machines. One has write only and the other has read only. If one goes down the other will take over.
