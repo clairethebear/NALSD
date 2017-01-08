@@ -1,0 +1,4 @@
+Q.What are the most common failures: software, hardware, or human? Justify your answer.
+
+A. The most comment failures are hardware related. It is easier to fix bugs in software over time, through monitoring and engineering.
+But hardware is something that is hard to account for.
