@@ -1,0 +1,1 @@
+The techniques are grouped into four categories: physical failures, attacks, human errors, and unexpected load.
