@@ -1,0 +1,6 @@
+Q. Where would you like to add resiliency in your current environment? Describe what you would change and which techniques you would apply.
+
+Implement source control - and to ensure that other humans check updates and approve them before they are uploaded to the production service.
+Back up power supply - currently this is a single point of failure.
+Distribute the service globally to avoid natural disasters.
+Prevent DOS attacks from being possible - tracking malicious requests and ensuring that we can cut it off at the source (ISP)
