@@ -1,0 +1,16 @@
+Q.  Select one resiliency technique and give an example of a failure and the way in which the resiliency technique 
+would prevent a user-visible outage. Do this for one technique in each of these sections: 6.5, 6.6, 6.7, and 6.8.
+
+A. In section 6.5 we read about software resiliency as a technique. The technique that I have chosen will tackle the
+issue of software hangs. Sometimes software can be caught in an infinite loop or will hang. To prevent this we can implement
+a watchdog timer. This is a hardware clock that keeps incrementing after the software has completed correctly, and sets 
+the timer back to zero.
+If the timer reaches a certain threshold we can alert a human or restart the service.
+
+In section 6.6 we talk about hardware failures - I have chosen to talk about rack diversity. It is possible for a racks to go down 
+within a datacenter if the rack architecture has not been designed effectively. For example - rack diversity is an important methadology. If we for example - put an entire service on one rack - if we have a power failure on that rack, our service will go down. To tackle this problem we would ensure that a service is spread across racks - multiple replicas across different racks. This is also advantagous because there is smaller bandwith and bandwith contention between racks. We can design the layout so that one service component is on the same rack as the data that it needs to access to return a result or computation.
+
+In section 6.7 we talked about the different ways that other hackers might want to bring down your service in the for of DoS attacks. This is when a group of machines globally attack your service by finding a query that returns a high volume information or to clog up your bandwidth by sending endless queries to your service. Once you notice this happening (service running that will check this) the only way around it if you're a small company is to call your ISP and get them to blacklist the IP. Otherwise large business contend with the attack by increasing bandwidth.
+
+In section 6.8 we talk about human errors. A way to reduce the likelyhood of human errors is by removing humams from the loop by automating tasks wherever possible. Another way is to make sure all new inputs and output is going to be checked by a second human before it can be approved. 
+Source control will be enabled and customized to trigger additional approval depending on the amount of content that is being update/changed or generated.
