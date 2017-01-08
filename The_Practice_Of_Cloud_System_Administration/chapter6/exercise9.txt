@@ -1,0 +1,3 @@
+Q.  The phrase “Eat right. Exercise. Die anyway.” is mentioned on page 123. Explain how this relates to distributed computing.
+
+A. The phrase is in relation to hardware. No matter how little traffic you route to it, how well you cool it or how expensive it was. It will eventually die - and you should plan for that.
