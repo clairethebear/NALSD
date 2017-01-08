@@ -1,0 +1,3 @@
+Q. In your environment, give an example of graceful degradation under load, or explain how you would implement it if it doesn’t currently exist.
+
+A. In our case because we have such simple setup - we would probably return a generic "Im sorry come back later" page when the traffic gets unmanagable.
